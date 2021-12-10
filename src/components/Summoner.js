@@ -1,6 +1,7 @@
 import { cleanup } from '@testing-library/react'
 import React,{useState,useEffect} from 'react'
 import './Summoner.css'
+import getApi from './myapi'
 const Summoner = ({mecz, id}) => {
 
     const [mecze, setMecze] = useState([])
@@ -9,7 +10,7 @@ const Summoner = ({mecz, id}) => {
     useEffect(() => {
         const abort = new AbortController();
         
-        fetch(`https://europe.api.riotgames.com/lol/match/v5/matches/${mecz}?api_key=RGAPI-220aa831-0a40-4bb3-aeda-5a5bcad7e1ae`, {signal: abort.signal})
+        fetch(`https://europe.api.riotgames.com/lol/match/v5/matches/${mecz}?api_key=${getApi()}`, {signal: abort.signal})
         .then(res => res.json())
         .then(data => setMecze(data))
         .catch(err => console.log(err))
