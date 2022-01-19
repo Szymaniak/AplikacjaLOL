@@ -1,7 +1,7 @@
 import { cleanup } from '@testing-library/react'
 import React,{useState,useEffect} from 'react'
 import './Summoner.css'
-import getApi from './myapi'
+import getApi from './myApi'
 const Summoner = ({mecz, id}) => {
 
     const [mecze, setMecze] = useState([])

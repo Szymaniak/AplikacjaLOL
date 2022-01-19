@@ -2,7 +2,7 @@ import React, { useState, useCallback, useRef } from "react";
 import "./Summoners.css";
 import Summoner from "./Summoner";
 import { useEffect } from "react/cjs/react.development";
-import getApi from "./myapi";
+import getApi from "./myApi";
 
 const Summoners = () => {
   const [dane, setDane] = useState([]);

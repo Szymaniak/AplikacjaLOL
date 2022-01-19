@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  color: #fff;
+}
+#githubclick {
+  margin: auto;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+#github {
+  margin: auto;
+  background-image: url(GitHub-Mark.png);
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+}
