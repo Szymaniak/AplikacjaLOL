@@ -150,7 +150,7 @@ const Summoners = () => {
         onKeyDown={sendRequest}
         placeholder="Nazwa przywoływacza"
       ></input>
-      <button className="Zapisz" onClick={sendData}>Zapisz</button>
+      <button className="Save" onClick={sendData}>Zapisz</button>
       
   <select  onChange={(e)=>{setId(e.target.value);loadSelectedPlayer(e.target.options[e.target.selectedIndex].text)}} className="Zapisz">
     {Name.map((d)=><option value={d.playerId} key={d.playerId}>{d.nickname}</option>)}
