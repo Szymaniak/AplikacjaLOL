@@ -152,7 +152,7 @@ const Summoners = () => {
       ></input>
       <button className="Zapisz" onClick={sendData}>Zapisz</button>
       
-  <select  onChange={(e)=>{setId(e.target.value),loadSelectedPlayer(e.target.options[e.target.selectedIndex].text)}} className="Zapisz">
+  <select  onChange={(e)=>{setId(e.target.value);loadSelectedPlayer(e.target.options[e.target.selectedIndex].text)}} className="Zapisz">
     {Name.map((d)=><option value={d.playerId} key={d.playerId}>{d.nickname}</option>)}
   </select>
   <button className="Zapisz" onClick={deletePlayer}>Delete</button>
