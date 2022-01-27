@@ -1,3 +1,42 @@
-body{
-    background: url("https://wallpaperaccess.com/full/3949076.jpg");
+.body{
+    background: url("wp2665744.jpg");
+    background-color: black;
+    background-size: auto;
+    height: 100vh;
 }
+.sliderimg{
+    
+    width: 800px;
+    height: 100%;
+
+   
+  }
+
+
+.bobo{
+    text-align: center;
+    width: 800px;
+    height: 100%;
+
+}
+
+
+.Slider{
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0000004f;
+    height: 100%;
+   
+    
+  }
+.tytul{
+      font-size: 40px;
+      text-align: center;
+      color: crimson;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+  }

@@ -4,8 +4,8 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Summoners from './components/Summoners';
 import Home from './components/Home';
-import Rejestracja from './components/Rejestracja';
 import Autorzy from './components/Autorzy';
+
 function App() {
   return (
     <Router>
@@ -15,8 +15,8 @@ function App() {
       <Route path='/summoners' element={<Summoners/>} />
       <Route path='/summoner' element={<Summoners/>} />
       <Route path='/home' element={<Home/>} />
-      <Route path='/rejestracja' element={<Rejestracja/>} />
       <Route path='/Autorzy' element={<Autorzy/>} />
+
       </Routes>
       </div>
     </Router>

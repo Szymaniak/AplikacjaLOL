@@ -1,0 +1,19 @@
+.form{
+    color: white;
+   
+    display: flex;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(65, 62, 62, 0.9);
+    justify-content: center;
+    margin-top: 10%;
+    padding: 20px 20px 20px 20px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+

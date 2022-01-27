@@ -6,17 +6,22 @@ const Navbar = () => {
     return (
 <>
 <nav>
-    <NavLink to="/"><img src={Logo} alt="logo" className="logo"/></NavLink>
-    <h2>Aplikacja LOL</h2>
+<a href='https://www.leagueoflegends.com'>
+    <img src={Logo} alt="logo" className="logo"/>
+    </a>
+    <a href='/home'>
+        <h2>League of Legends <br/> Player Stats</h2>
+    </a>
+    
     <div className="navmenu">
     <NavLink to="/home" className={({ isActive }) => (isActive ? "linkactive" : "link")}>Strona Głowna</NavLink>
     <NavLink to="/summoners" className={({ isActive }) => (isActive ? "linkactive" : "link")}>Summoners</NavLink>
-    <NavLink to="/2" className={({ isActive }) => (isActive ? "linkactive" : "link")}>2</NavLink>
-    <NavLink to="/3" className={({ isActive }) => (isActive ? "linkactive" : "link")}>3</NavLink>
-    <NavLink to="/4" className={({ isActive }) => (isActive ? "linkactive" : "link")}>4</NavLink>
+    
+    <NavLink to="/Autorzy" className={({ isActive }) => (isActive ? "linkactive" : "link")}>Autorzy</NavLink>
+    
     </div>
     <nav className="divbutton">
-    <NavLink to='/logowanie' className="button">Rejestracja</NavLink>
+    
     </nav>
 </nav>
 </>
