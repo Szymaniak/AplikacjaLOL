@@ -1,0 +1,64 @@
+body{
+  background: url("wp2665744.jpg");
+  background-color: black;
+  background-size: auto;
+}
+.glowna{
+  
+  width: 800px;
+  font-size: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0000004f;
+  height:fit-content;
+  margin-top: auto;
+  
+ 
+  
+}
+.fotka{
+  height: auto;
+  width: 200px;
+  border-radius: 10%;
+  margin: 10px 10px 10px 10px;
+}
+.autor{
+  
+  overflow: hidden;
+
+}
+.zdjecie{
+  width: 200px;
+  float: left;
+}
+.opis{
+  float: left;
+  width: 460px;
+  margin: 10px 10px 0px 30px;
+  text-align: center;
+}
+.imie{
+  color: rgb(0, 154, 243);
+  font-family:'Lucida Grande';
+  margin: 0px 10px 10px 10px;
+  text-align: left;
+}
+.dane{
+  color: rgb(213, 249, 255);
+  font-family:'Lucida Grande';
+  margin: 10px 0px 10px 10px;
+  font-size: 20px;
+  text-align: left;
+}
+ul{
+  text-align: left;
+  margin-top: 10px;
+}
+hr{
+  margin: 0px;
+ 
+
+}
+
+

@@ -6,7 +6,7 @@ display: flex;
 flex-direction: column;
 text-align: left;
 padding: 50px;
-background: url("https://wallpaperaccess.com/full/3949076.jpg");
+background: url("wp2665744.jpg");
 }
 .summoner2{
     display: flex;
@@ -31,3 +31,10 @@ p{
     display: flex;
     flex-direction: column;
 }
+.Zapisz{
+    width: 100px;
+}
+.kontrolki{ 
+    text-align: center;
+}
+
