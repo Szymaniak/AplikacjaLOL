@@ -14,10 +14,10 @@ const Navbar = () => {
     </a>
     
     <div className="navmenu">
-    <NavLink to="/home" className={({ isActive }) => (isActive ? "linkactive" : "link")}>Strona Głowna</NavLink>
+    <NavLink to="/home" className={({ isActive }) => (isActive ? "linkactive" : "link")}>Main Page</NavLink>
     <NavLink to="/summoners" className={({ isActive }) => (isActive ? "linkactive" : "link")}>Summoners</NavLink>
     
-    <NavLink to="/Autorzy" className={({ isActive }) => (isActive ? "linkactive" : "link")}>Autorzy</NavLink>
+    <NavLink to="/Autorzy" className={({ isActive }) => (isActive ? "linkactive" : "link")}>Autors</NavLink>
     
     </div>
     <nav className="divbutton">
