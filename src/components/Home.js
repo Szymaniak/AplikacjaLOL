@@ -15,7 +15,7 @@ const Home = () => {
         
         <div class="Slider">
         <p className='tytul'>League of Legens Players Stats</p>
-        <AliceCarousel autoPlay autoPlayInterval="2500" infinite>
+        <AliceCarousel autoPlay autoPlayInterval="2500" infinite disableButtonsControls>
         <img src={IMG1} className="sliderimg" className='bobo'/>
         <img src={IMG2} className="sliderimg" className='bobo'/>
         <img src={IMG3} className="sliderimg" className='bobo'/>
